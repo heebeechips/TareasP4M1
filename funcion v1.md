@@ -49,3 +49,28 @@ static void Main()
 		}
 }
 Main ();
+
+
+
+
+
+
+V2 en proceso
+
+
+
+using System;
+Console.WriteLine("Bogotá amanece gris. Miras el celular: 7:18 a.m. La clase empieza a las 8:00. Sales corriendo a la calle.");
+string[] decisiones = new string[4];
+decisiones [0] = " Llegas a la esquina 1)Atajo, 2)esperar bus, 3)camino conocido";
+decisiones [1]= " Al pasar por el atajo hay una construcción bloqueando el andén 1)Cruzar por la autopista, 2)Caminar hasta el otro paso peatonal";
+decisiones [2]= " Te subes al bus tras esperarlo 20 minutos. Hay trancón.  1)quedarse en el bus, 2)caminar";
+
+string[] finales = new string[4];
+finales [0] = " Llegas a clase justo a tiempo. FINAL: LLEGASTE.";
+finales [1]= " Rodeas con cuidado y llegas a clase apenas a tiempo. FINAL: LLEGASTE.";
+finales [2]= "Cruzas justo cuando pasa una moto. FINAL: NO LLEGASTE.";
+finales [3]= "Cruzas justo cuando pasa una moto. FINAL: NO LLEGASTE.";
+
+
+
